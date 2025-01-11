@@ -22,6 +22,19 @@ body {
     font-family: "Libre Franklin", serif;
 }
 
+h1 {
+    color: var(--Gray);
+    font-weight: 300;
+    padding: 25px 0 8px ;
+}
+
+h1 strong {
+    color: var(--Very-Dark-Blue);
+}
+
+
+
+
 
 
 
