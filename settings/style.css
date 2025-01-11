@@ -39,14 +39,18 @@ h1 strong {
 }
 
 #email {
-    width: 80%;
+    width: 50%;
     padding:15px 5px 15px 5px;
-    border: solid 2px var(--Gray);
+    border: solid 2px var(--Pale-Blue);
     border-radius: 50px;
 }
 
 #email::placeholder {
     font-size: 0.8rem;
+}
+
+.illustration {
+    width: 50%;
 }
 
 
