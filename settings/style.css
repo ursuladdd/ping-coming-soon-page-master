@@ -93,3 +93,27 @@ h1 > strong {
 .illustration {
     width: 40%;
 }
+
+footer {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.importantes {
+    text-align: center;
+    text-decoration: none;
+}
+
+.redes_sociais {
+    width: 2.5%;
+    margin: 0 10px 20px 10px ;
+}
+
+footer > .importantes > p {
+    color: var(--Gray);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
