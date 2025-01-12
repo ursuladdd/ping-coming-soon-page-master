@@ -23,5 +23,57 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
    
+}
+
+.logo {
+    width: 5%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: var(--Gray);
+}
+
+h1 > strong {
+    color: var(--Very-Dark-Blue);
+}
+
+.container > h1 + p {
+    color: var(--Very-Dark-Blue);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.inproviso {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#email {
+    height: 50px;
+    width: 420px;
+    border: solid var(--Pale-Blue) 2px;
+    border-radius: 50px;
+}
+
+#email::placeholder {
+    padding: 20px;
+    color: var(--Pale-Blue);
+}
+
+#email + button {
+    width: 180px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--Blue);
+    color: #FFFF;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.7px;
+
 }
