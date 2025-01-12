@@ -1,9 +1,9 @@
 :root {
---Blue: hsl(223, 87%, 63%);
---Pale-Blue: hsl(223, 100%, 88%);
---Light-Red: hsl(354, 100%, 66%);
---Gray: hsl(0, 0%, 59%);
---Very-Dark-Blue: hsl(209, 33%, 12%);
+--Blue: #4f7df3;
+--Pale-Blue: #c2d3ff;
+--Light-Red: #ff5263;
+--Gray: #969696;
+--Very-Dark-Blue: #151f29;
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-    margin: 5% 0 5% 0;
+    margin: 5% 0 3% 0;
     background-color: #FFFF;
     font-family: "Libre Franklin", serif;
 }
@@ -57,7 +57,7 @@ h1 > strong {
 
 #email {
     height: 50px;
-    width: 420px;
+    width: 390px;
     border: solid var(--Pale-Blue) 2px;
     border-radius: 50px;
 }
@@ -95,7 +95,7 @@ h1 > strong {
 }
 
 footer {
-    margin-top: 95px;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,12 +108,30 @@ footer {
 }
 
 .redes_sociais {
-    width: 2.5%;
+    width: 2%;
     margin: 0 10px 20px 10px ;
+    border-radius: 50px;
+    padding: 5px;
+    border: solid var(--Pale-Blue) 1px;
+}
+
+.redes_sociais:hover {
+    border: solid #4f7df3 1px;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
 }
 
 footer > .importantes > p {
     color: var(--Gray);
     font-size: 0.9rem;
-    font-weight: 600;
 }
+
+
+.attribution {
+    margin-top: 15px;
+    color: var(--Gray);
+}
+
