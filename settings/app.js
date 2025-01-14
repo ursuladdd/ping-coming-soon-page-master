@@ -19,8 +19,11 @@ botao.addEventListener('click',() => {
     } else {
         alert("Thank you ;)")
         mensagem.textContent = "";
+
     }
-    return
+
+    document.getElementById("email").value = "";
+    document.getElementById("email").focus();
 
 } );
 
