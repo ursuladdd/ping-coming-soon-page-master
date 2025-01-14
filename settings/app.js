@@ -18,6 +18,7 @@ botao.addEventListener('click',() => {
         
     } else {
         alert("Thank you ;)")
+        mensagem.textContent = "";
     }
     return
 
