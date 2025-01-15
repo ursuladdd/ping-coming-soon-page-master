@@ -14,11 +14,12 @@ botao.addEventListener('click',() => {
 
     
     if (!validarEmail(email)) {
-        mensagem.textContent = "Please provide a valid email address"
+        mensagem.textContent = "Please provide a valid email address";
         
     } else {
         alert("Thank you ;)")
         mensagem.textContent = "";
+        
 
     }
 
