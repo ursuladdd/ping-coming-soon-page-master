@@ -23,19 +23,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
    
 }
 
 .logo {
     width: 75px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 h1 {
     font-size: 2.5rem;
     font-weight: 200;
     color: var(--Gray);
+    margin-bottom: 10px;
 }
 
 h1 > strong {
@@ -45,14 +46,14 @@ h1 > strong {
 .container > h1 + p {
     color: var(--Very-Dark-Blue);
     font-size: 1.1rem;
-    margin-bottom: 15px;
+    margin-bottom: 2.3%;
 }
 
 .inproviso {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-bottom: 50px;
+    
 }
 
 #email {
@@ -70,6 +71,17 @@ h1 > strong {
 #email:hover {
     border: solid var(--Gray) 2px;
     cursor: pointer;
+}
+
+.erro-message {
+    position: relative;
+    right: 11.5%;
+    
+}
+
+#erro {
+    color: var(--Light-Red);
+    font-size: 0.7rem;
 }
 
 #email + button {
@@ -91,11 +103,12 @@ h1 > strong {
 
 
 .illustration {
+    padding-top: 4%;
     width: 40%;
 }
 
 footer {
-    margin-top: 5%;
+    margin-top: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
