@@ -1,11 +1,15 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const botao = document.getElementById('botao');
+    const email = document.getElementById('email'); //Obtém o valor (string)
+    const emailInput = document.getElementById('email'); // Obtém o elemento de entrada
+    const mensagem = document.getElementById('erro');
 
-let botao = document.getElementById("botao");
 
 
 
 botao.addEventListener('click',() => {
-    let email = document.getElementById("email").value;
-    let mensagem = document.getElementById("erro");
+    const email = document.getElementById("email").value;
+    const mensagem = document.getElementById("erro");
 
     function validarEmail(email) {
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -15,18 +19,26 @@ botao.addEventListener('click',() => {
     
     if (!validarEmail(email)) {
         mensagem.textContent = "Please provide a valid email address";
+        emailInput.style.border = '2px solid #ff5263 ';
+       
+
+
+       
+        
         
     } else {
         alert("Thank you ;)")
         mensagem.textContent = "";
+        emailInput.style.border = '';
         
 
     }
 
-    document.getElementById("email").value = "";
-    document.getElementById("email").focus();
+    emailInput.value = '';
+    emailInput.focus();
 
 } );
+});
 
 
 

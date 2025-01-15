@@ -63,6 +63,8 @@ h1 > strong {
     border-radius: 50px;
 }
 
+
+
 #email::placeholder {
     padding: 20px;
     color: var(--Pale-Blue);
@@ -159,7 +161,8 @@ footer > .importantes > p {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 25px;
+        gap: 20px;
+       
     }
 
     .logo {
@@ -180,6 +183,16 @@ footer > .importantes > p {
 
     #email {
         width: 100%;
+    }
+
+    .erro-message {
+        position: relative;
+        bottom: 90px;
+        right: 1%; 
+    }
+
+    #erro {
+        
     }
 
     #email::placeholder {
